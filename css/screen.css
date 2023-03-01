@@ -280,10 +280,27 @@ label {
 }
 
 
-@media screen and (max-width: 600px) {
+@media only screen and (max-width: 720px) {
   .col-25, .col-75, input[type=submit] {
     margin-top: 0;
     width: 100%;
 
+  }
+  h1{
+    font-size: 30px;
+  }
+  body{
+    font-size: 15px;
+    max-width: 100%;
+		text-align:center;
+  }
+  input[type=email], select{
+    width: 50%
+  }
+  input[type=date], select{
+    width: 50%
+  }
+  input[type=tel], select{
+    width: 50%
   }
 }
