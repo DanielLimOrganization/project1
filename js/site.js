@@ -10,7 +10,7 @@ function init(){
   
   function alertFunc() {
     alert('Account made for: ' + input.value)
-    output.innerHTML = 'Welcome ' + input.value;
+    output.innerHTML = 'Welcome! ' + input.value;
   }
   
   pressButton.addEventListener('click', alertFunc);
