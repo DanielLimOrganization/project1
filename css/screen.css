@@ -1,3 +1,7 @@
+body {
+  flex-direction: column;
+}
+
 h1{
   background-color: LightSlateGrey;
   border-radius: 20px;
