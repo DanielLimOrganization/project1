@@ -17,7 +17,7 @@ h1{
 }
 
 p{
-  background-image: linear-gradient(to right, orange , yellow);;
+  background-image: linear-gradient(to right, orange , yellow);
   border-radius: 20px;
   color: white;
   font-family: Courier New, Modern, sans-serif;
@@ -34,7 +34,7 @@ p{
   padding: 0.5em; 
 }
 
-#input-email{
+#input-email {
   background-color: lightgrey;
   border-radius: 20px;
   font-family: System, Wide-Latin, sans-serif;

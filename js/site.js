@@ -5,15 +5,13 @@ jQuery(function($) {
 });
 function init(){
   
-  var Name = document.getElementById('Name')
+  var input = document.getElementById('entryinput')
   var pressButton = document.getElementById('submit')
   var output = document.getElementById('textoutput')
   
   function alertFunc() {
-    //sends the alert
-    alert('Daniel Lim: ' + Name.value)
-    //changes h2
-    output.innerHTML = Name.value + ' account created';
+    alert('Account made for: ' + input.value)
+    output.innerHTML = 'Welcome ' + input.value;
   }
   
   pressButton.addEventListener('click', alertFunc);
