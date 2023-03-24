@@ -145,13 +145,16 @@ logo {
     max-width: 100%;
     text-align: center;
   }
+  input[type=text], select{
+    width: 90%
+  }
   input[type=email], select{
-    width: 50%
+    width: 90%
   }
   input[type=date], select{
-    width: 50%
+    width: 90%
   }
   input[type=tel], select{
-    width: 50%
+    width: 90%
   }
 }
